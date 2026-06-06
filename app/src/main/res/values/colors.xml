@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#EAF4F0</color>
+    <color name="bg_deep">#DDEDE8</color>
+    <color name="surface">#F8FFFC</color>
+    <color name="surface_glass">#CCFFFFFF</color>
+    <color name="surface_glass_strong">#E9FFFFFF</color>
+    <color name="glass_stroke">#B3FFFFFF</color>
+    <color name="text_primary">#123033</color>
+    <color name="text_secondary">#60777B</color>
+    <color name="text_muted">#8BA1A4</color>
+    <color name="ok">#0B8F86</color>
+    <color name="warn">#B7791F</color>
+    <color name="bad">#C2413A</color>
+    <color name="unknown">#718096</color>
+    <color name="brand">#0B8F86</color>
+    <color name="brand_dark">#075E59</color>
+    <color name="button_soft">#E7F3F0</color>
+</resources>

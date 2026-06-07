@@ -4,6 +4,14 @@ Android Remote Control is an open-source remote control stack for rooted Android
 
 The project is designed for owned devices, lab devices, cloud phones, QA automation, device diagnostics, and remote Android operations where you need screenshots, UI dumps, taps, swipes, text input, app launch, and optional ADB bridging without exposing a public ADB port.
 
+<p>
+  <img src="docs/images/web-console-preview.png" alt="Android remote control web console with cloud phone preview, Root API controls, MJPEG screen stream, device status, action log, and copy-ready Agent prompt" width="100%">
+</p>
+
+<p>
+  <img src="docs/images/android-app-dashboard.png" alt="Kotlin Android cloud phone inspector app showing relay online status, root ready status, ADB status, JSON copy, and remote control channel diagnostics" width="360">
+</p>
+
 ## Keywords
 
 android remote control, android automation, rooted android controller, cloud phone control, android adb bridge, android mjpeg streaming, android device dashboard, remote android screenshots, uiautomator dump, kotlin android diagnostics, node websocket relay, react device console

@@ -1,0 +1,429 @@
+{
+  "lastScan": "2026-06-07T14:21:49.468Z",
+  "files": {
+    ".claude/.file-snapshot.json": {
+      "size": 11328,
+      "mtimeMs": 1780841369407
+    },
+    ".claude/candidates.md": {
+      "size": 1201,
+      "mtimeMs": 1780837456019
+    },
+    ".cursor/rules/project-system.mdc": {
+      "size": 1267,
+      "mtimeMs": 1780836406411
+    },
+    ".gitignore": {
+      "size": 291,
+      "mtimeMs": 1780756779783
+    },
+    "CLAUDE.md": {
+      "size": 6505,
+      "mtimeMs": 1780836406408
+    },
+    "DOCS.md": {
+      "size": 2686,
+      "mtimeMs": 1780842052504
+    },
+    "PROJECT.md": {
+      "size": 5334,
+      "mtimeMs": 1780842052503
+    },
+    "README.md": {
+      "size": 7009,
+      "mtimeMs": 1780759143893
+    },
+    "STRUCTURE.md": {
+      "size": 2378,
+      "mtimeMs": 1780839083809
+    },
+    "TODO.md": {
+      "size": 2738,
+      "mtimeMs": 1780842052504
+    },
+    "UPDATE_LOG.md": {
+      "size": 3306,
+      "mtimeMs": 1780842052504
+    },
+    "app/build.gradle.kts": {
+      "size": 2067,
+      "mtimeMs": 1780756603585
+    },
+    "app/proguard-rules.pro": {
+      "size": 81,
+      "mtimeMs": 1780691411704
+    },
+    "app/src/main/AndroidManifest.xml": {
+      "size": 1644,
+      "mtimeMs": 1780709416027
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/MainActivity.kt": {
+      "size": 17840,
+      "mtimeMs": 1780709408102
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/AppListCollector.kt": {
+      "size": 1383,
+      "mtimeMs": 1780691690878
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/PermissionCollector.kt": {
+      "size": 2398,
+      "mtimeMs": 1780691690878
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/RootInfoCollector.kt": {
+      "size": 2175,
+      "mtimeMs": 1780691915071
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/SystemInfoCollector.kt": {
+      "size": 2678,
+      "mtimeMs": 1780691690877
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/model/DiagnosticModels.kt": {
+      "size": 1310,
+      "mtimeMs": 1780691579249
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/network/NetworkCollector.kt": {
+      "size": 2421,
+      "mtimeMs": 1780691690878
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/network/NetworkTargetParser.kt": {
+      "size": 1397,
+      "mtimeMs": 1780691579249
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/report/ReportJsonSerializer.kt": {
+      "size": 4766,
+      "mtimeMs": 1780691579249
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/diagnostics/report/TextSummaryFormatter.kt": {
+      "size": 792,
+      "mtimeMs": 1780691579250
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/relay/RelayConfig.kt": {
+      "size": 389,
+      "mtimeMs": 1780704497697
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/relay/RelayDeviceId.kt": {
+      "size": 522,
+      "mtimeMs": 1780693624243
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/relay/RelayPayloads.kt": {
+      "size": 1049,
+      "mtimeMs": 1780693624243
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/relay/RelayService.kt": {
+      "size": 26660,
+      "mtimeMs": 1780756615596
+    },
+    "app/src/main/java/com/allin/cloudphone/inspector/relay/UpdateRecoveryReceiver.kt": {
+      "size": 401,
+      "mtimeMs": 1780709412343
+    },
+    "app/src/main/res/drawable/bg_glass_panel.xml": {
+      "size": 369,
+      "mtimeMs": 1780708123750
+    },
+    "app/src/main/res/drawable/bg_metric_panel.xml": {
+      "size": 282,
+      "mtimeMs": 1780708123750
+    },
+    "app/src/main/res/drawable/bg_primary_button.xml": {
+      "size": 196,
+      "mtimeMs": 1780708123750
+    },
+    "app/src/main/res/drawable/bg_status_pill.xml": {
+      "size": 192,
+      "mtimeMs": 1780708123750
+    },
+    "app/src/main/res/layout/activity_main.xml": {
+      "size": 16745,
+      "mtimeMs": 1780708192515
+    },
+    "app/src/main/res/values/colors.xml": {
+      "size": 769,
+      "mtimeMs": 1780708123748
+    },
+    "app/src/main/res/values/strings.xml": {
+      "size": 732,
+      "mtimeMs": 1780756741372
+    },
+    "app/src/main/res/values/styles.xml": {
+      "size": 3358,
+      "mtimeMs": 1780708123749
+    },
+    "app/src/test/java/com/allin/cloudphone/inspector/NetworkTargetParserTest.kt": {
+      "size": 1100,
+      "mtimeMs": 1780756752505
+    },
+    "app/src/test/java/com/allin/cloudphone/inspector/ReportFormattersTest.kt": {
+      "size": 2646,
+      "mtimeMs": 1780756768183
+    },
+    "build.gradle.kts": {
+      "size": 142,
+      "mtimeMs": 1780691411703
+    },
+    "cloudphone-console/index.html": {
+      "size": 308,
+      "mtimeMs": 1780705583813
+    },
+    "cloudphone-console/package-lock.json": {
+      "size": 30017,
+      "mtimeMs": 1780758382619
+    },
+    "cloudphone-console/package.json": {
+      "size": 279,
+      "mtimeMs": 1780758382610
+    },
+    "cloudphone-console/src/main.jsx": {
+      "size": 38001,
+      "mtimeMs": 1780840354772
+    },
+    "cloudphone-console/src/styles.css": {
+      "size": 14749,
+      "mtimeMs": 1780840249831
+    },
+    "cloudphone-console/vite.config.js": {
+      "size": 168,
+      "mtimeMs": 1780705695371
+    },
+    "cloudphone-operator/README.md": {
+      "size": 4014,
+      "mtimeMs": 1780842052503
+    },
+    "cloudphone-operator/cloudphone_operator/__init__.py": {
+      "size": 60,
+      "mtimeMs": 1780838724335
+    },
+    "cloudphone-operator/cloudphone_operator/__main__.py": {
+      "size": 80,
+      "mtimeMs": 1780838724336
+    },
+    "cloudphone-operator/cloudphone_operator/agent.py": {
+      "size": 2566,
+      "mtimeMs": 1780842002230
+    },
+    "cloudphone-operator/cloudphone_operator/api.py": {
+      "size": 2277,
+      "mtimeMs": 1780840151622
+    },
+    "cloudphone-operator/cloudphone_operator/audit.py": {
+      "size": 2137,
+      "mtimeMs": 1780838724337
+    },
+    "cloudphone-operator/cloudphone_operator/cli.py": {
+      "size": 2627,
+      "mtimeMs": 1780838832519
+    },
+    "cloudphone-operator/cloudphone_operator/config.py": {
+      "size": 2660,
+      "mtimeMs": 1780840151622
+    },
+    "cloudphone-operator/cloudphone_operator/executor.py": {
+      "size": 1451,
+      "mtimeMs": 1780838832519
+    },
+    "cloudphone-operator/cloudphone_operator/policy.py": {
+      "size": 3635,
+      "mtimeMs": 1780841155412
+    },
+    "cloudphone-operator/cloudphone_operator/relay_client.py": {
+      "size": 5186,
+      "mtimeMs": 1780838832518
+    },
+    "cloudphone-operator/cloudphone_operator/schemas.py": {
+      "size": 3322,
+      "mtimeMs": 1780838724336
+    },
+    "cloudphone-operator/cloudphone_operator/tools.py": {
+      "size": 16910,
+      "mtimeMs": 1780841194710
+    },
+    "cloudphone-operator/cloudphone_operator/ui_parser.py": {
+      "size": 6140,
+      "mtimeMs": 1780841072295
+    },
+    "cloudphone-operator/cloudphone_operator/workflow_registry.py": {
+      "size": 5509,
+      "mtimeMs": 1780841953805
+    },
+    "cloudphone-operator/pyproject.toml": {
+      "size": 568,
+      "mtimeMs": 1780838724335
+    },
+    "cloudphone-operator/tests/__init__.py": {
+      "size": 1,
+      "mtimeMs": 1780838947842
+    },
+    "cloudphone-operator/tests/test_agent.py": {
+      "size": 3040,
+      "mtimeMs": 1780841261446
+    },
+    "cloudphone-operator/tests/test_audit.py": {
+      "size": 1327,
+      "mtimeMs": 1780838947843
+    },
+    "cloudphone-operator/tests/test_cli.py": {
+      "size": 890,
+      "mtimeMs": 1780838947844
+    },
+    "cloudphone-operator/tests/test_config.py": {
+      "size": 1451,
+      "mtimeMs": 1780840151623
+    },
+    "cloudphone-operator/tests/test_executor.py": {
+      "size": 1593,
+      "mtimeMs": 1780839200312
+    },
+    "cloudphone-operator/tests/test_policy.py": {
+      "size": 2034,
+      "mtimeMs": 1780841219431
+    },
+    "cloudphone-operator/tests/test_relay_client.py": {
+      "size": 3035,
+      "mtimeMs": 1780838947843
+    },
+    "cloudphone-operator/tests/test_tools.py": {
+      "size": 5050,
+      "mtimeMs": 1780841219431
+    },
+    "cloudphone-operator/tests/test_ui_parser.py": {
+      "size": 2292,
+      "mtimeMs": 1780841072296
+    },
+    "cloudphone-operator/tests/test_workflow_registry.py": {
+      "size": 2088,
+      "mtimeMs": 1780841953805
+    },
+    "cloudphone-relay/package-lock.json": {
+      "size": 922,
+      "mtimeMs": 1780756869483
+    },
+    "cloudphone-relay/package.json": {
+      "size": 280,
+      "mtimeMs": 1780756793658
+    },
+    "cloudphone-relay/server.js": {
+      "size": 22982,
+      "mtimeMs": 1780756717122
+    },
+    "deploy/pb/nginx/cloudphone-relay.conf": {
+      "size": 492,
+      "mtimeMs": 1780715942154
+    },
+    "docs/design/.gitkeep": {
+      "size": 1,
+      "mtimeMs": 1780836406412
+    },
+    "docs/design/main.md": {
+      "size": 377,
+      "mtimeMs": 1780836406411
+    },
+    "docs/experiments/.gitkeep": {
+      "size": 1,
+      "mtimeMs": 1780836406413
+    },
+    "docs/prd/.gitkeep": {
+      "size": 1,
+      "mtimeMs": 1780836406412
+    },
+    "docs/prd/main.md": {
+      "size": 450,
+      "mtimeMs": 1780836406410
+    },
+    "docs/research/.gitkeep": {
+      "size": 1,
+      "mtimeMs": 1780836406413
+    },
+    "docs/research/agno-operator-evaluation.md": {
+      "size": 1715,
+      "mtimeMs": 1780836406411
+    },
+    "docs/superpowers/plans/2026-06-06-cloudphone-home-redesign.md": {
+      "size": 13231,
+      "mtimeMs": 1780708001912
+    },
+    "docs/superpowers/plans/2026-06-06-cloudphone-relay.md": {
+      "size": 2481,
+      "mtimeMs": 1780693558462
+    },
+    "docs/superpowers/plans/2026-06-07-cloudphone-operator-agent-v0.10.md": {
+      "size": 9388,
+      "mtimeMs": 1780838569924
+    },
+    "docs/superpowers/plans/2026-06-07-ui-semantic-tools-v0.12.md": {
+      "size": 3394,
+      "mtimeMs": 1780841016893
+    },
+    "docs/superpowers/plans/2026-06-07-web-console-operator-panel-v0.11.md": {
+      "size": 3064,
+      "mtimeMs": 1780840124204
+    },
+    "docs/superpowers/plans/2026-06-07-workflow-registry-v0.13.md": {
+      "size": 2511,
+      "mtimeMs": 1780841906618
+    },
+    "docs/superpowers/specs/2026-06-06-cloudphone-home-redesign-design.md": {
+      "size": 3286,
+      "mtimeMs": 1780707765866
+    },
+    "docs/tech-design/.gitkeep": {
+      "size": 1,
+      "mtimeMs": 1780836406412
+    },
+    "docs/tech-design/cloudphone-operator-agent-v0.10.md": {
+      "size": 9662,
+      "mtimeMs": 1780838297976
+    },
+    "docs/tech-design/main.md": {
+      "size": 653,
+      "mtimeMs": 1780836406411
+    },
+    "gradle/wrapper/gradle-wrapper.jar": {
+      "size": 48462,
+      "mtimeMs": 1780691475454
+    },
+    "gradle/wrapper/gradle-wrapper.properties": {
+      "size": 279,
+      "mtimeMs": 1780691475452
+    },
+    "gradle.properties": {
+      "size": 177,
+      "mtimeMs": 1780691411703
+    },
+    "gradlew": {
+      "size": 8654,
+      "mtimeMs": 1780691475714
+    },
+    "gradlew.bat": {
+      "size": 2846,
+      "mtimeMs": 1780691475730
+    },
+    "log/.gitkeep": {
+      "size": 1,
+      "mtimeMs": 1780836406412
+    },
+    "log/session-2026-06-07-agno-operator-direction.md": {
+      "size": 2215,
+      "mtimeMs": 1780836406411
+    },
+    "log/session-2026-06-07-project-butler-init-skill-sync.md": {
+      "size": 2807,
+      "mtimeMs": 1780837442201
+    },
+    "session-handoff.md": {
+      "size": 4844,
+      "mtimeMs": 1780842052503
+    },
+    "settings.gradle.kts": {
+      "size": 339,
+      "mtimeMs": 1780691411703
+    },
+    "tools/adb-bridge-client.mjs": {
+      "size": 3498,
+      "mtimeMs": 1780756685099
+    },
+    "tools/cloudphone-api-client.mjs": {
+      "size": 4249,
+      "mtimeMs": 1780756665390
+    }
+  }
+}

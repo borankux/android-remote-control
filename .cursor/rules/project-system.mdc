@@ -1,0 +1,29 @@
+---
+description: Apply at session start and when user says end session / review claude / sync wiki / status / organize files / change language. Defines the project memory stack behavior.
+---
+
+# Android Remote Control / 云机远程控制 — Project System Rules
+
+## Session Start
+
+1. Read PROJECT.md and session-handoff.md at the start of every conversation. Check the Language setting in CLAUDE.md to determine output language.
+2. Read logs bounded by the Log Compaction Threshold. Skip if log/ does not exist.
+
+## End Session Protocol
+
+When user says "end session" / "结束会话" / "收工":
+
+1. Write log/session-YYYY-MM-DD-{slug}.md.
+2. Compact logs if threshold is reached.
+3. Update session-handoff.md.
+4. Update PROJECT.md if structure or module status changed.
+5. Update TODO.md.
+6. Collect CLAUDE.md candidates into .claude/candidates.md.
+7. Reorganize changed files incrementally using STRUCTURE.md.
+7.5. Archive documents to docs/ and update DOCS.md.
+8. Evaluate and write UPDATE_LOG.md if changes are significant.
+9. Output summary in configured language.
+
+## Project Boundary
+
+Agno is only the Cloud Phone Operator Agent. It must not replace Relay, Android App, command queue, authentication, audit, MJPEG, ADB Bridge, or deterministic platform APIs.

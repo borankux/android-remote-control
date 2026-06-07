@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloudphone-operator"
+version = "0.10.0"
+description = "Safe operator layer for Relay-controlled Android cloud phones"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+agent = ["agno>=1.0.0"]
+api = ["fastapi>=0.110.0", "uvicorn>=0.27.0"]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+cloudphone-operator = "cloudphone_operator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cloudphone_operator*"]

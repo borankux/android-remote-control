@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">云机体检</string>
+    <string name="refresh">重新采集</string>
+    <string name="copy_json">复制 JSON</string>
+    <string name="copy_summary">复制摘要</string>
+    <string name="open_settings">打开应用设置</string>
+    <string name="run_network_check">测试连接</string>
+    <string name="server_hint">https://example.com:443/health 或 tcp.example.com:9000</string>
+    <string name="copy_connection">复制接入信息</string>
+    <string name="details_show">查看诊断详情</string>
+    <string name="details_hide">收起诊断详情</string>
+    <string name="cloudphone_taken_over">云机已接管</string>
+</resources>

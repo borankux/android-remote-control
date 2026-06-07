@@ -646,6 +646,11 @@ class RelayService : Service() {
             private set
 
         fun start(context: Context) {
+            if (!RelayConfig.configured) {
+                latestStatus = "Relay 未配置"
+                connected = false
+                return
+            }
             try {
                 val intent = Intent(context, RelayService::class.java)
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

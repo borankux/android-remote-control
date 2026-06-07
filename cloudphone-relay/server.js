@@ -618,4 +618,4 @@ wss.on("adbDevice", (ws, req, deviceId, tunnelId) => {
 });
 
 setInterval(prune, 30_000).unref();
-server.listen(PORT, "localhost", () => console.log(`cloudphone-relay listening on localhost:${PORT}`));
+server.listen(PORT, "127.0.0.1", () => console.log(`cloudphone-relay listening on 127.0.0.1:${PORT}`));

@@ -6,7 +6,10 @@ import android.content.Intent
 
 class UpdateRecoveryReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent?) {
-        if (intent?.action != Intent.ACTION_MY_PACKAGE_REPLACED) return
-        RelayService.start(context.applicationContext)
+        when (intent?.action) {
+            Intent.ACTION_BOOT_COMPLETED,
+            Intent.ACTION_MY_PACKAGE_REPLACED -> RelayService.start(context.applicationContext)
+            else -> return
+        }
     }
 }
